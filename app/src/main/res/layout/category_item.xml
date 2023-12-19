@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/category_Card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/category_Img"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/scince"/>
+
+    <TextView
+        android:id="@+id/category_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Science"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
